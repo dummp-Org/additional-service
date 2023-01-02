@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+    name: pdf-scanner
+    description: PDF Scanner for Capsule attachment uploads
+    title: PDF Scanner
+    tags:
+        - java
+spec:
+    owner: user:DemiKnight
+    type: service
+    lifecycle: production
+    system: capsule
